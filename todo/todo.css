@@ -1,0 +1,57 @@
+body{
+    background-color: lightcoral;
+    height: 100vh;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    height: 30vh;
+    align-items: center;
+}
+.ranjith{
+    text-align: center;
+    padding-top: 100px;
+    color: rgb(70, 0, 190);
+}
+.up{
+    width: 350px;
+    background-color: aqua;
+    padding: 10px;
+    display: flex;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+#inp{
+    flex: 5;
+    margin: 0px 10px 0px 0px ;
+    border-radius: 5px;
+    font-size: 1.2rem;
+}
+.btn{
+    margin: 0px 0px 0px 10px ;
+    flex: 1;
+    border-radius: 5px;
+}
+li{
+    list-style-type: none;
+    flex: 6;
+}
+.task{
+    
+    background-color: lightblue;
+    display: flex;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    margin-bottom: 10px;
+
+}
+.task button{
+    flex: 1;
+
+    font-size: 1.2rem;
+}
+.dclass{
+    margin-left: 10px;
+}
